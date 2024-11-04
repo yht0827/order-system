@@ -14,8 +14,13 @@
 - OrderRepository : 주문 데이터 저장소
 
 
-## API 설명
+## API
 
 - GET http://localhost:8080/api/orders/{id} : 주문 데이터 조회
 - GET http://localhost:8080/api/orders/list : 주문 데이터 전체 리스트 조회
 - POST http://localhost:8080/api/orders : 주문 데이터 저장
+> {
+    "customerName" : "홍길동", 
+    "orderTime" :  "2024-11-04T06:34:20",
+    "orderStatus" : "processing"
+> }
